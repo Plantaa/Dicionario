@@ -1,5 +1,5 @@
 def main():
-    cria_arquivo("Saída2.txt", insercao(separa_palavras("Texto.txt"), cria_vetor()))
+    cria_arquivo("Saida.txt", insercao(separa_palavras("Entrada.txt"), cria_vetor()))
     
 def cria_vetor():
     v = ['']*1000
